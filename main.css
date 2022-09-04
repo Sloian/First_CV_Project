@@ -1,0 +1,159 @@
+
+:root {
+    --blue-100: #376193;
+    --blue-200: #264061;
+    --grey-100: #d3d3d3;
+    --white: #fff;
+  }
+  
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: whitesmoke;
+}
+
+.headings{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  padding-left: 15px;
+}
+
+a {
+  all: unset;
+}
+
+
+.main-container {
+  width: 992px;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid var(--grey-100);
+  background: var(--white);
+  box-sizing: border-box;
+}
+
+.left-container {
+  width: 35%;
+  height: 100vh;
+}
+
+.right-container {
+  width: 65%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+    
+.side-content {
+  padding: 2rem;
+  flex: 1 1 auto;
+}
+
+.name-heading {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: var(--blue-200)
+}
+
+.my-photo{
+  background-color: lightgrey;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 230px;
+  margin: 0 auto;
+}
+
+.photo{
+  width: 200px;
+  height: 265px;
+}
+
+.skills-list {
+  columns: 3;
+  padding-left: 1.5rem;
+}
+
+.section{
+  margin-bottom: 1.5rem;
+}
+
+.headings{
+  color: var(--blue-200);
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--blue-100);
+}
+
+.bi {
+  height: 1rem;
+  margin-right: 0.4rem;
+  display: inline-block;
+  vertical-align: -0.125rem;
+}
+
+.contacts-link {
+  cursor: pointer;
+}
+
+
+.list li {
+  margin-bottom: 1rem;
+}
+
+.skills-item {
+  margin-bottom: 1rem;
+}
+
+.decorative-block {
+  height: 40px;
+  width: 100%;
+}
+
+.blue-bg-100 {
+  background-color: var(--blue-100);
+}
+
+.blue-bg-200{
+  background: var(--blue-200);
+}
+
+
+.contacts-list, .languages-list{
+  list-style-type: none;
+}
+  
+  /*  */
+
+
+.experiance-wrapper-elements{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.experiance-photo{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.experiance-heading-text{
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.experiance-description-text{
+  margin: 0 0 10px 0;
+  font-style: italic;
+  
+}
